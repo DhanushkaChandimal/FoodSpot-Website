@@ -56,3 +56,21 @@ header .navigation li a {
     font-weight: 400;
     font-size: 1.5em;
 }
+
+/* Banner */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.postimg.cc/s29LNR86/bg.jpg);
+    height: 610px;
+}
+
+.banner .content{
+    display: flex;
+    flex-direction: column;
+    padding: 52px 100px;
+}
+
+.banner .content h2{
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
