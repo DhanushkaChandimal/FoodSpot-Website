@@ -21,11 +21,15 @@
     object-fit: cover;
 }
 
+/* Navbar */
 header {
+    position: sticky;
+    top: 0;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 100px;
+    padding: 17px 100px;
 }
 
 .logo {
@@ -33,6 +37,7 @@ header {
     font-weight: bold;
     text-decoration: none;
     font-size: 2.5em;
+    margin-right: 20px;
 }
 
 header .logo span {
