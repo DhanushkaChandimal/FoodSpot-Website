@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: grey;
 }
 
 header {
@@ -15,7 +14,7 @@ header {
 }
 
 .logo {
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: none;
     font-size: 2.5em;
@@ -34,7 +33,7 @@ header .navigation {
 
 header .navigation li a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 400;
     font-size: 1.5em;
 }
