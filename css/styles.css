@@ -6,6 +6,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-6 {
+    width: 50%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -29,7 +38,6 @@ header .navigation {
     list-style: none;
     gap: 30px;
 }
-
 
 header .navigation li a {
     text-decoration: none;
