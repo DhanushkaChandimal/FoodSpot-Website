@@ -34,10 +34,21 @@ section {
     padding: 80px;
 }
 
+section span {
+    font-size: 2em;
+    color: #ff0157;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
 /* Navbar */
 header {
     position: fixed;
     top: 0;
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: space-between;
