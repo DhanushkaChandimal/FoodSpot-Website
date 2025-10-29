@@ -21,15 +21,29 @@
     object-fit: cover;
 }
 
+.btn {
+    background-color: #ff0157;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+section {
+    padding: 80px;
+}
+
 /* Navbar */
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 100px;
+    padding: 10px 100px;
+    z-index: 10;
 }
 
 .logo {
@@ -59,18 +73,28 @@ header .navigation li a {
 
 /* Banner */
 .banner {
+    width: 100%;
+    padding: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.postimg.cc/s29LNR86/bg.jpg);
-    height: 610px;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner .content{
-    display: flex;
-    flex-direction: column;
-    padding: 52px 100px;
+    max-width: 900px;
+    text-align: center;
 }
 
 .banner .content h2{
     color: white;
     font-size: 5em;
-    text-align: center;
+}
+
+
+.banner .content p{
+    color: white;
+    margin-bottom: 20px;
 }
