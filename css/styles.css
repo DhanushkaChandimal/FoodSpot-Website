@@ -201,3 +201,9 @@ header .navigation li a {
     color: #ff0157;
     font-weight: 900;
 }
+
+/* Contact */
+.contact {
+  background: url(https://i.postimg.cc/4NmrNq7y/bg3.jpg);
+  background-size: cover;
+}
