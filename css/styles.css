@@ -204,6 +204,39 @@ header .navigation li a {
 
 /* Contact */
 .contact {
-  background: url(https://i.postimg.cc/4NmrNq7y/bg3.jpg);
-  background-size: cover;
+    background: url(https://i.postimg.cc/4NmrNq7y/bg3.jpg);
+    background-size: cover;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact h3 {
+    font-weight: 400;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 5px 40px rgb(197, 197, 197);
+    margin-top: 50px;
+    padding: 70px 40px;
+}
+
+.contact form input, textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+
+.contact form .input-btn{
+    background-color: #ff0157;
+    color: white;
+    border: none;
+    font-size: 18px;
 }
