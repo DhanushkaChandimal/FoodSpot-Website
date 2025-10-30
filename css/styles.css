@@ -240,3 +240,15 @@ header .navigation li a {
     border: none;
     font-size: 18px;
 }
+
+footer {
+    background-color: #ff0157;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+footer .icons a{
+    color: white;
+    text-decoration: none;
+}
